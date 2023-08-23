@@ -6,6 +6,7 @@
   "scripts": {
     "start": "vite"
   },
+  "build": "node -v && npm -v && npm clean-install && next build",
   "keywords": [],
   "author": "",
   "license": "ISC",
